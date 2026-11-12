@@ -2,6 +2,17 @@ from dataclasses import dataclass
 from drafter import *
 from bakery import assert_equal
 
+set_website_title("LifeGuard Chem Log")
+set_site_information(
+    author="Brett Kennedy",
+    description="Log Chemical Checks for Pool.",
+    sources="American RedCross for pH and Chlorine Values and Drafter and Claude",
+    planning=["add later"],
+    links=["https://github.com/brettken-developer/CISC106-LifeGuardChemLog/blob/main/main.py"]
+)
+hide_debug_information()
+set_website_framed(False)
+
 #constants below as provided by red cross
 pH_max = 7.8
 pH_min = 7.2
