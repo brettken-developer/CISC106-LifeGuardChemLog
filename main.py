@@ -6,8 +6,8 @@ set_website_title("LifeGuard Chem Log")
 set_site_information(
     author="Brett Kennedy",
     description="Log Chemical Checks for Pool.",
-    sources="American RedCross for pH and Chlorine Values and Drafter and Claude",
-    planning=["add later"],
+    sources="American RedCross for pH and Chlorine Values, Drafter Documentation, Claude, Teachers, and Sample Code provided",
+    planning=["https://docs.google.com/document/d/1eJIdQAr6B0exMf9rcmCzFU1mGTtMwmdzrYQhKgHdS6I/edit?usp=sharing"],
     links=["https://github.com/brettken-developer/CISC106-LifeGuardChemLog/blob/main/main.py"]
 )
 hide_debug_information()
